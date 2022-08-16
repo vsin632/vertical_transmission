@@ -1,10 +1,5 @@
 # vertical_transmission
-Scripts associated with manuscript "Extensive inheritance of gut microbial communities in a superorganismal termite"
-Authors: Justinn Renelies-Hamilton and Sergio Andreu-Sanchez
-Author contact: JR-H (https://orcid.org/0000-0003-3136-6171; claxon71@gmail.com), SA-S (https://orcid.org/0000-0002-3503-9971)  
-Author contributions: JR-H wrote script to analyze 16S amplicon sequencing data (number 1-14b, 16-17), SA-S wrote script for Random Forest model (number 15)
-Sequencing data available at SRA archive in GenBank (BioProject PRJNA860052).
-Step 1 refers to transmission to founding reproductive. Step 2 refers to transmission to offspring colonies
+Scripts associated with manuscript "Extensive inheritance of gut microbial communities in a superorganismal termite". Authors: Justinn Renelies-Hamilton and Sergio Andreu-Sanchez. Author contact: JR-H (https://orcid.org/0000-0003-3136-6171; claxon71@gmail.com), SA-S (https://orcid.org/0000-0002-3503-9971). Author contributions: JR-H wrote script to analyze 16S amplicon sequencing data (number 1-14b, 16-17), SA-S wrote script for Random Forest model (number 15). Sequencing data available at SRA archive in GenBank (BioProject PRJNA860052). Step 1 refers to transmission to founding reproductive. Step 2 refers to transmission to offspring colonies
 
 # 1. Dada_setup 
 from raw files to dada2 objects. Utilizes files in SRA BioProject, Batch_1_new_metadata.csv, Dict_db.fasta, batch_2_metadata.csv, seqtab.nochim.rds, taxa_ditchdb_cp_2.rds
